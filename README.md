@@ -6,8 +6,11 @@ A guessing game about the states of USA. The main game is in 'main.py'. To recon
 
 ### Requirements:
 
-[Turtle]()
-[Pandas]()
+[Python](https://www.python.org/)
+
+[Turtle](https://docs.python.org/3/library/turtle.html)
+
+[Pandas](https://pandas.pydata.org/)
 
 To Run:
 
