@@ -58,11 +58,9 @@ while len(correct_guesses["state"]) < num_states:
         window.update()
 
 
-states_to_learn_list = []
-
-for state in states_list:
-    if state not in correct_guesses["state"]:
-        states_to_learn_list.append(state)
+states_to_learn_list = [
+    state for state in states_list if state not in correct_guesses["state"]
+]
 
 states_to_learn_df = pd.DataFrame(states_to_learn_list, columns=["state"])
 print(states_to_learn_df)
